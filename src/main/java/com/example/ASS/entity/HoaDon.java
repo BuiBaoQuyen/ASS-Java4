@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.time.LocalDate;
+import java.util.Date;
 
 @Entity
 @Getter
@@ -23,7 +24,7 @@ public class HoaDon {
     private String ma;
 
     @Column(name = "NgayTao")
-    private LocalDate ngayTao;
+    private Date ngayTao;
 
     @Column(name = "NgayThanhToan")
     private LocalDate ngayThanhToan;

@@ -47,4 +47,5 @@ public class GioHang {
 
     @ManyToOne
     @JoinColumn(name = "idNV", referencedColumnName ="id")
+    private NhanVien nhanVien;
 }
